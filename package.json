@@ -2,15 +2,18 @@
   "name": "maroon",
   "description": "Личный проект Maroon",
   "main": "index.html",
+  "private": true,
   "dependencies": {
     "gulp-cli": "^2.3.0",
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "normalize.scss": "^0.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
     "csso": "^4.2.0",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
+    "gulp-html-prettify": "^0.0.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
@@ -22,7 +25,7 @@
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify-es": "^2.0.0",
     "gulp-webp": "^4.0.1",
-    "htmlmin": "^0.0.7",
+    "node-normalize-scss": "^8.1.2",
     "postcss": "^8.2.13",
     "postcss-csso": "^5.0.1",
     "rename": "^1.0.4",
@@ -50,6 +53,6 @@
     "source/sass/**/*.scss"
   ],
   "engines": {
-    "node": "14.15.0"
+    "node": "14.16.1"
   }
 }

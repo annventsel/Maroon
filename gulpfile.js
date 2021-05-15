@@ -7,6 +7,7 @@ const autoprefixer = require("autoprefixer");
 const csso = require("postcss-csso");
 const rename = require("gulp-rename");
 const htmlmin = require("gulp-htmlmin");
+const prettify = require("gulp-html-prettify");
 const sync = require("browser-sync").create();
 
 // Styles
@@ -50,7 +51,7 @@ exports.server = server;
 
 const html = () => {
   return gulp.src("source/*.html")
-    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(prettify({ indent_char: ' ', indent_size: 2}))
     .pipe(gulp.dest("source"));
 }
 

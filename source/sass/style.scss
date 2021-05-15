@@ -1,3 +1,7 @@
+/* Normalize */
+
+@import "normalize.scss";
+
 //Global
 
 @import "global/variables.scss";
@@ -7,3 +11,4 @@
 //Blocks
 
 @import "blocks/page.scss";
+@import "blocks/header.scss";
