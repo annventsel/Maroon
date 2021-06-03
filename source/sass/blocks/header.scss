@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/image/header-lay(mob).jpg");
+  background-repeat: no-repeat;
+}
+
+@media (min-resolution: 2dppx) {
+  $background-image: url("../../img/image/header-lay(mob-2x).jpg");
+}
+
+.header__logo {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+
+

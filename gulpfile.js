@@ -17,6 +17,7 @@ const styles = () => {
     .pipe(plumber())
     .pipe(sourcemap.init())
     .pipe(sass())
+    .pipe(gulp.dest("source/css"))
     .pipe(postcss([
       autoprefixer(),
       csso()
@@ -85,6 +86,7 @@ exports.default = gulp.series(
     html
   ),
   gulp.series(
+    build,
     server,
     watcher
   ));

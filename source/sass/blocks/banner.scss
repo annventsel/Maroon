@@ -1,0 +1,26 @@
+.banner {
+  background-image: url("../../img/image/banner-mob(1x).jpg");
+  width: 320px;
+  min-height: 562px;
+}
+
+.banner__content {
+  text-align: center;
+  padding: 296px 12px 24px;
+}
+
+.banner__title {
+  font-size: 26px;
+  line-height: 35px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.banner__description {
+  padding-bottom: 30px;
+}
+
+.banner__button {
+  padding: 13px 28px 16px;
+}

@@ -1,0 +1,46 @@
+.individual {
+  background-color: $white;
+}
+
+.individual__container {
+  position: relative;
+
+  width: 290px;
+  min-height: 840px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 81px;
+}
+
+.individual__content {
+  background-color: $cream;
+  padding: 60px 31px 50px 24px;
+}
+
+.individual__description1 {
+  display: none;
+}
+
+.individual__title {
+  font-size: 28px;
+  line-height: 35px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.individual__description2 {
+  padding-bottom: 30px;
+}
+
+.individual__button {
+  padding: 13px 28px 16px;
+  margin-bottom: 110px;
+}
+
+.individual__image {
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  z-index: 10;
+}

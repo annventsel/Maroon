@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "M plus 1p";
+  src: url("../fonts/m-plus-1p-v19-latin_cyrillic-regular.woff2") format("woff2"),
+       url("../fonts/m-plus-1p-v19-latin_cyrillic-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "M plus 1p";
+  src: url("../fonts/m-plus-1p-v19-latin_cyrillic-500.woff2") format("woff2"),
+       url("../fonts/m-plus-1p-v19-latin_cyrillic-500.woff") format("woff");
+  font-weight: 500;
+  font-style: medium;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-v19-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/m-plus-1p-v19-latin_cyrillic-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-v19-latin_cyrillic-500.woff2") format("woff2"),
+    url("../fonts/raleway-v19-latin_cyrillic-500.woff") format("woff");
+  font-weight: 500;
+  font-style: medium;
+  font-display: swap;
+}

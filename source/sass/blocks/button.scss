@@ -1,0 +1,15 @@
+.button {
+  font-family: "M plus 1p", "Arial", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  background-color: transparent;
+  color: $black;
+  border: 1px solid $border-button;
+  // padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}

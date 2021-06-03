@@ -1,0 +1,70 @@
+.about {
+  background-image: url("../../img/image/header-lay(mob).jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.about__container {
+  margin: 0 auto;
+}
+
+.about__title {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 49px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.about__description {
+  font-family: "M plus 1p", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.about__button {
+  padding: 13px 30px;
+  border-radius: 2px;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+
+.about__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 320px;
+  margin: 0;
+}
+
+.about__item {
+  display: grid;
+  width: 150px;
+  padding-left: 15px;
+}
+
+.about-card__text {
+  width: 89px;
+  font-family: "M plus 1p", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.about-card__link {
+  position: relative;
+  width: 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 103px;
+    width: 23px;
+    height: 12px;
+    background-image: url(../../img/svg/arrow.svg);
+    background-repeat: no-repeat;
+  }
+}

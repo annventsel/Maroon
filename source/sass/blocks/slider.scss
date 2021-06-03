@@ -1,0 +1,65 @@
+.slider {
+  position: relative;
+  display: flex;
+}
+
+.slider-wrapper {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+}
+
+.slider__item {
+  padding-top: 215px;
+}
+
+.slider-card1 {
+  display: block;
+  background-image: url("/../img/image/high-mob(1x).jpg");
+  width: 220px;
+  height: 297px;
+  margin-right: 30px;
+}
+
+.slider-card--background {
+  background-image: url("/../img/image/slide2-mob.jpg");
+  width: 20px;
+}
+
+.slider-card2 {
+  background-image: url("../img/image/slide2-mob.jpg");
+  display: none;
+}
+
+.slider-card3 {
+  background-image: url("../img/image/slide2-mob.jpg");
+  display: none;
+}
+
+.slider-card4 {
+  background-image: url("../img/image/slide2-mob.jpg");
+  display: none;
+}
+
+.slider-card__title {
+  font-size: 16px;
+  line-height: 23px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 500;
+}
+
+.slider-card__description {
+  font-size: 13px;
+  line-height: 19px;
+  font-family: "M plus 1p", "Arial", sans-serif;
+  color: $light-grey;
+}
+
+.slider-card__link {
+  font-size: 13px;
+  font-family: "M plus 1p", "Arial", sans-serif;
+  color: $black;
+  text-decoration: none;
+  border-bottom: 1px solid $black;
+}
