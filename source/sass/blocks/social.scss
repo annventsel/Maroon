@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.social__item {
+  padding-right: 30px;
+  padding-bottom: 60px;
+}

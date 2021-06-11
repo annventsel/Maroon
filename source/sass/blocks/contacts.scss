@@ -1,0 +1,56 @@
+.contacts {
+  background-color: $white;
+}
+
+.contacts__container {
+  background-color: $cream;
+  margin: 0 15px;
+}
+
+.contacts__content {
+  padding-left: 30px;
+}
+
+.contacts__title {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Raleway", "Arial", sans-serif;
+  line-height: 35px;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.contacts__address-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: "M plus 1p";
+  padding-bottom: 15px;
+}
+
+.contacts__address {
+  font-style: normal;
+  padding-right: 32px;
+  padding-bottom: 30px;
+}
+
+.contacts__title-tel {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: "M plus 1p";
+  padding-bottom: 15px;
+}
+
+.contacts__email-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  font-family: "M plus 1p";
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.contacts__email {
+  padding-bottom: 30px;
+}
