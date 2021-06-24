@@ -1,3 +1,17 @@
 .main {
 width: 320px;
 }
+
+@media (min-width: $tablet-width) {
+  .main {
+    width: 765px;
+    background-image: url("../../img/image/header-lay(tablet-1x).jpg");
+    background-repeat: no-repeat;
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/header-lay(tablet-2x).jpg");
+  }
+
+}
+

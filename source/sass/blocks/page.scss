@@ -1,6 +1,5 @@
 .page {
   min-width: 320px;
-  // width: 100%;
   font-size: 16px;
   line-height: 22px;
   font-family: "M plus 1p", "Arial", sans-serif;
@@ -25,9 +24,25 @@
   margin: 0 auto;
 }
 
+.page__body--background {
+  background-image: url("../../img/image/header-lay(mob).jpg");
+}
+
+@media (min-resolution: 2dppx) {
+  $background-image: url("../../img/image/header-lay(mob-2x).jpg");
+}
+
 @media (min-width: $tablet-width) {
   .page__body-wrapper {
     width: 768px;
+  }
+
+  .page__body--background {
+    background-image: url("../../img/image/header-lay(tablet-1x).jpg");
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/header-lay(tablet-2x).jpg");
   }
 }
 

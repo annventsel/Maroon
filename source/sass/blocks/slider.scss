@@ -63,3 +63,40 @@
   text-decoration: none;
   border-bottom: 1px solid $black;
 }
+
+@media (min-width: $tablet-width) {
+.slider-wrapper {
+  position: absolute;
+  top: -220px;
+  left: 204px;
+  }
+
+  .slider-card--background {
+    display: none;
+  }
+
+  .slider__item {
+    text-align: center;
+  }
+
+  .slider-card1 {
+    background-image: url("../../img/image/slider1(tablet-1x).jpg");
+    width: 230px;
+    height: 312px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/slide1(tablet-2x).jpg");
+  }
+
+
+  .slider-card2 {
+    display: block;
+    width: 206px;
+    background-image: url("../../img/image/slide2(tablet-1x).jpg");
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/slide2(tablet-2x).jpg");
+  }
+}

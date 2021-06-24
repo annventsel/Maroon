@@ -29,4 +29,34 @@
   margin-bottom: 80px;
 }
 
+@media (min-width: $tablet-width) {
+  .bestsellers {
+    padding-top: 120px;
+    margin-top: -81px;
+  }
+
+  .bestsellers__container {
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .bestsellers__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .bestsellers__description {
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 0;
+    width: 284px;
+    padding: 0 50px 35px 0;
+  }
+
+  .bestsellers__button {
+    margin-top: 0;
+    margin-bottom: 213px;
+  }
+
+}
 

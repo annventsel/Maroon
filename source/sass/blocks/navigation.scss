@@ -10,7 +10,7 @@
 }
 
 .navigation__list {
-  border-top: 1px solid $border;
+  // border-top: 1px solid $border;
   width: 100%;
   padding-left: 15px;
   padding-top: 20px;
@@ -79,7 +79,6 @@
 }
 
 @media (max-width: $mobile-width-only) {
-
   .navigation--closed .navigation__item {
     display: none;
   }
@@ -90,5 +89,23 @@
 
   .navigation--nojs .navigation__item {
     display: block;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .navigation {
+    width: 100%;
+  }
+
+  .navigation--closed .navigation__toggle::before {
+    width: 24px;
+  }
+
+
+  .navigation--opened .navigation__toggle {
+    &::before,
+    &::after {
+      width: 24px;
+    }
   }
 }
