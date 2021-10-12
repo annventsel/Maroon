@@ -54,3 +54,25 @@
 .contacts__email {
   padding-bottom: 30px;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts__container {
+    margin: 0 45px;
+  }
+
+  .contacts__map-wrapper  {
+    height: 0;
+  }
+
+  .contacts__map {
+    position: relative;
+    top: -430px;
+    left: 420px;
+    width: 369px;
+    height: 374px;
+  }
+
+  .contacts__content {
+    padding-left: 60px;
+  }
+ }

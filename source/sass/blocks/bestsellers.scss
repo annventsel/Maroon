@@ -32,7 +32,7 @@
 @media (min-width: $tablet-width) {
   .bestsellers {
     padding-top: 120px;
-    margin-top: -81px;
+    margin-top: -82px;
   }
 
   .bestsellers__container {
@@ -54,6 +54,8 @@
   }
 
   .bestsellers__button {
+    font-size: 16px;
+    font-weight: 22px;
     margin-top: 0;
     margin-bottom: 213px;
   }

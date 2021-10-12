@@ -26,3 +26,39 @@
 .follow__image {
   padding-top: 50px;
 }
+
+@media (min-width: $tablet-width) {
+  .follow__container {
+    padding: 120px 45px;
+    text-align: left;
+  }
+
+  .follow__title {
+    font-size: 32px;
+    line-height: 40px;
+    padding: 57px 0 30px 402px;
+  }
+
+  .follow__description {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 0 40px 402px;
+  }
+
+  .follow__button {
+    margin-left: 402px;
+    padding: 13px 34px 16px;
+  }
+
+  .follow__image {
+    position: relative;
+    top: -311px;
+    width: 354px;
+    padding-top: 0;
+  }
+
+  .follow__image-wrapper {
+    height: 0;
+  }
+
+}

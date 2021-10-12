@@ -50,3 +50,40 @@
   text-decoration: none;
   color: $copyright;
 }
+
+@media (min-width: $tablet-width) {
+  .footer {
+    margin-top: 120px;
+  }
+
+  .footer__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .footer__list {
+    display: flex;
+    width: 400px;
+    padding-top: 0;
+    padding-left: 50px;
+    gap: 25px;
+  }
+
+  .footer__item {
+    display: flex;
+  }
+
+  .footer__social {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .footer__copyright-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 44px;
+    padding-left: 45px;
+  }
+}

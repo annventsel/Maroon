@@ -1,7 +1,7 @@
 .banner {
   background-image: url("../../img/image/banner-mob(1x).jpg");
-  width: 320px;
-  min-height: 562px;
+  // width: 320px;
+  // min-height: 562px;
 }
 
 .banner__content {
@@ -23,4 +23,34 @@
 
 .banner__button {
   padding: 13px 28px 16px;
+}
+
+@media (min-width: $tablet-width) {
+  .banner {
+    background-image: url("../../img/image/banner-tablet(1x).jpg");
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/banner-tablet(2x).jpg");
+  }
+
+  .banner__content {
+    text-align: left;
+    padding: 97px 35px 65px 399px;
+  }
+
+  .banner__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .banner__description {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .banner__button {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }

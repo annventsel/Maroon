@@ -19,3 +19,34 @@
 .history__button {
   padding: 13px 28px 16px;
 }
+
+@media (min-width: $tablet-width) {
+  .history {
+    margin-top: -135px;
+    background-image: url("../../img/image/history-tablet(1x).jpg");
+    height: 393px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/history-tablet(2x).jpg")
+  }
+
+  .history__container {
+    // padding-top: 100px;
+    padding: 0;
+  }
+
+  .history__description {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 100px;
+
+  }
+
+  .history__button {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

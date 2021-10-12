@@ -44,3 +44,39 @@
   top: 500px;
   z-index: 10;
 }
+
+@media (min-width: $tablet-width) {
+  .individual__container {
+    width: 670px;
+  }
+
+  .individual__content {
+    text-align: left;
+    padding-left: 60px;
+  }
+
+  .individual__description1 {
+    display: block;
+    width: 344px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .individual__description2 {
+    width: 344px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+  }
+
+  .individual__image {
+    top: 143px;
+    left: 467px;
+    height: 403px;
+  }
+
+  .individual__button {
+    margin-bottom: 0;
+  }
+}
