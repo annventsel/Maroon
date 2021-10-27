@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-.user-actions__item {
+.user-actions__user {
   position: relative;
 }
 
@@ -20,6 +20,10 @@
   background-repeat: no-repeat;
 }
 
+.user-actions__cart {
+  position: relative;
+}
+
 .user-actions__cart::before {
   content: '';
   position: absolute;
@@ -29,4 +33,16 @@
   height: 25px;
   background-image: url(../../img/svg/cart.svg);
   background-repeat: no-repeat;
+}
+
+@media (min-width: $desktop-width) {
+  .user-actions__user::before {
+    left: -140px;
+    top: 43px;
+  }
+
+  .user-actions__cart::before {
+    left: -110px;
+    top: 43px;
+  }
 }

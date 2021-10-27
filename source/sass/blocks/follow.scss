@@ -60,5 +60,33 @@
   .follow__image-wrapper {
     height: 0;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .follow {
+    margin-top: 140px;
+  }
+
+  .follow__container {
+    padding-top: 80px;
+    padding-left: 98px;
+    padding-right: 98px;
+  }
+
+  .follow__title {
+    padding-left: 770px;
+  }
+
+  .follow__description {
+    padding-left: 770px;
+  }
+
+  .follow__button {
+    margin-left: 770px;
+  }
+
+  .follow__image {
+    top: -345px;
+    width: 699px;
+  }
 }

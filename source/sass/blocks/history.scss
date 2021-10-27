@@ -28,11 +28,10 @@
   }
 
   @media (min-resolution: 2dppx) {
-    $background-image: url("../../img/image/history-tablet(2x).jpg")
+    $background-image: url("../../img/image/history-tablet(2x).jpg");
   }
 
   .history__container {
-    // padding-top: 100px;
     padding: 0;
   }
 
@@ -48,5 +47,28 @@
   .history__button {
     font-size: 16px;
     line-height: 22px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .history {
+    min-height: 433px;
+    margin-top: -110px;
+  }
+
+  .history__container {
+    background-image: url("../../img/image/history-desktop(1x).jpg");
+    background-repeat: no-repeat;
+    min-height: 433px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/history-desktop(2x).jpg");
+  }
+
+  .history__description {
+    padding-top: 120px;
+    padding-right: 287px;
+    margin-left: 301px;
   }
 }

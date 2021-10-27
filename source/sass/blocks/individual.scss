@@ -80,3 +80,28 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .individual {
+    padding-top: 140px;
+  }
+
+  .individual__container {
+    width: 1170px;
+    padding-top: 0;
+    padding-left: 98px;
+    padding-right: 400px;
+    margin: 0;
+  }
+
+  .individual__image {
+    width: 670px;
+    min-height: 421px;
+    top: 66px;
+    left: 598px;
+  }
+
+  .individual__content {
+    padding-bottom: 100px;
+  }
+}

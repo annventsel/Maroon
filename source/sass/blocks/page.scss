@@ -50,7 +50,15 @@
 
 @media (min-width: $desktop-width) {
   .page__body-wrapper {
-    width: 1280px;
-    padding: 0 40px;
+    width: 1366px;
+  }
+
+  .page__body--background {
+    background-image: url("../../img/image/header-lay(desktop-1x).jpg");
+    background-size: 1366px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    $background-image: url("../../img/image/header-lay(desktop-2x).jpg");
   }
 }

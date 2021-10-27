@@ -110,3 +110,44 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .about__cards {
+    width: 1366px;
+    padding: 0;
+    padding-left: 168px;
+    padding-right: 168px;
+  }
+
+  .about-card__image {
+    width: 330px;
+    height: 422px;
+  }
+
+  .about__item {
+    width: 330px;
+    height: 422px;
+  }
+
+  .about__title {
+    font-size: 58px;
+    line-height: 68px;
+    padding-top: 0;
+  }
+
+  .about__button {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .about-card__text {
+    width: 125px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .about-card__link::before {
+    width: 26px;
+    left: 140px;
+  }
+
+}

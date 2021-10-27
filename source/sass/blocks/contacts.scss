@@ -67,7 +67,7 @@
   .contacts__map {
     position: relative;
     top: -430px;
-    left: 420px;
+    left: 354px;
     width: 369px;
     height: 374px;
   }
@@ -75,4 +75,43 @@
   .contacts__content {
     padding-left: 60px;
   }
+ }
+
+ @media (min-width: $desktop-width) {
+   .contacts {
+    margin-top: 140px;
+    font-size: 18px;
+    line-height: 26px;
+   }
+
+   .contacts__container {
+     margin: 0 98px;
+     width: 670px;
+   }
+
+   .contacts__content {
+     padding-left: 100px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+   }
+
+   .contacts__map {
+     width: 670px;
+     min-height: 422px;
+     left: 500px;
+     top: -518px;
+   }
+
+   .contacts__title {
+     padding-top: 0;
+     font-size: 32px;
+     line-height: 42px;
+   }
+
+   .contacts__address-title,
+   .contacts__email-title,
+   .contacts__title-tel {
+     font-size: 18px;
+     line-height: 26px;
+   }
  }

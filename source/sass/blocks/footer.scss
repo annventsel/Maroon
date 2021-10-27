@@ -87,3 +87,23 @@
     padding-left: 45px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .footer__content-wrapper {
+    padding: 0;
+  }
+
+  .footer__content {
+    padding: 60px 98px;
+  }
+
+  .footer__list {
+    width: 700px;
+    padding-left: 0;
+    gap: 40px;
+  }
+
+  .footer__copyright-wrapper {
+    padding: 20px 98px;
+  }
+}

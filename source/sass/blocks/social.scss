@@ -6,6 +6,13 @@
 }
 
 .social__item {
-  padding-right: 30px;
+  padding-left: 30px;
   padding-bottom: 60px;
+}
+
+
+@media (min-width: $desktop-width) {
+  .social__item {
+    padding-bottom: 0;
+  }
 }

@@ -55,10 +55,20 @@
 
   .bestsellers__button {
     font-size: 16px;
-    font-weight: 22px;
+    line-height: 22px;
     margin-top: 0;
     margin-bottom: 213px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .bestsellers {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .bestsellers__container {
+    padding-left: 98px;
+  }
 }
 

@@ -17,4 +17,16 @@
   }
 }
 
+@media (min-width: $desktop-width) {
+  .header__logo {
+    top: 40px;
+    left: 98px;
+  }
+
+  .logo__image {
+    width: 131px;
+    height: 21px;
+  }
+}
+
 
